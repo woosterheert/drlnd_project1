@@ -14,18 +14,24 @@ These 37 numbers represent the agent's velocity and a vectorized representation 
 The agent can choose from four actions: forward, backward, turn left and turn right.
 
 ## Solution
-This movie shows the resuling agent of my solution:
+The report.ipynb notebook contains and explanation of my solution.
+This movie shows one run of the resulting agent:
 
 ![](solved_agent_480.gif)
 
-## Installation
+## Replicating the solution
 In order to run the files yourself, please follow these instructions:
 
 - Create a python 3.6 environment
+- Clone the repo into this environment
 - Install the dependencies in the requirements.txt file in this environment
 - Download the necessary Unity Environment from one of the following links and install it in the same directory as the code:
-  - Linux: click here
-  - Mac OSX: click here
-  - Windows (32-bit): click here (64-bit): click here
+  - Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+  - Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+  - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)  
+  - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
   
-    
+
+After the installation has been completed, open the Navigation.ipynb notebook.
+You can decide to either train the agent yourself by running the first cells or skip straight to the bottom section
+to load the pretrained model and see the resulting agent in action
