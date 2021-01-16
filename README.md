@@ -15,10 +15,8 @@ The agent can choose from four actions: forward, backward, turn left and turn ri
 
 ## Solution
 This movie shows the resuling agent of my solution:
-<video width="640" height="356" controls>
-  <source src="solved_agent_480.mov" type="video/mp4">
-</video>
 
+![](solved_agent_480.gif)
 
 ## Installation
 In order to run the files yourself, please follow these instructions:
