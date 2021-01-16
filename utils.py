@@ -85,6 +85,6 @@ def plot_results(results, window_size, target_score):
     df = pd.DataFrame(results)
     ax = df.plot()
     df.rolling(window_size).mean().plot(ax=ax)
-    plt.hlines(target_score, 0, len(df), 'r', label='target score')
+    plt.hlines(target_score, 0, len(df), 'g', label='target score')
     ax.legend(["score", "score rolling average"])
     plt.xlabel('episode')

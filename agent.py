@@ -152,7 +152,7 @@ class Agent:
 
     def run(self):
         total_reward = 0
-        self.initialize_world(1)
+        self.initialize_world(0)
         while not self.finished:
             a = self.select_action()
             next_state, reward, done = self.take_action(a)
